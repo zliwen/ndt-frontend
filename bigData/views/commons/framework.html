@@ -1,0 +1,19 @@
+<div>
+    <div class="nav-head">
+        <div class="logo">
+            <a ng-click="goBack()">
+                <img src="static/images/idlogo.png" alt=""/>
+            </a>
+        </div>
+        <div class="big-title" ng-bind="bigTitle">
+
+        </div>
+    </div>
+
+
+    <div>
+        <div class="page {{pageChange}} {{pageClass}}" ui-view></div>
+    </div>
+</div>
+
+

@@ -1,0 +1,37 @@
+.sccsMap{ height: 100%; width: 100%; position: relative;}
+
+.sccsMap .item{ position: absolute;
+  width: 40%;
+  height: 40%;
+}
+.sccsMap .chart1{
+  left:20px; top:20px;
+}
+.sccsMap .chart2{
+  right:20px; top:20px;
+}
+.sccsMap .chart3{
+  width: 30%;
+  right:20px; bottom:20px; }
+
+.sccsMap .chart4{
+  width: 30%;
+  left:20px; bottom:20px; }
+
+
+.sccsMap .chart5{height: 25%; width: 20%;
+  left:20px; top:20px; color: #fff; padding: 10px;
+  line-height:40px;
+}
+.sccsMap .chart5 span{ color: #888;}
+
+
+
+.sccsMap .item>div{ height: 100%; width: 100%;}
+.item canvas{cursor: default}
+.sccsMap .dashboard-map{height:100%;}
+.explain{ position: absolute; color: rgba(255,194,0,0.4); width: 100%; bottom:20px;
+  font-size: 12px;
+  text-align: center;}
+
+

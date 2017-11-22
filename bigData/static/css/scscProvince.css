@@ -1,0 +1,31 @@
+.scscProvince{ padding: 10px}
+.scscProvince .provinceMap{ }
+.scscProvince .item{ float: left; height: 400px;
+     padding: 10px; position: relative;
+}
+.scscProvince .item>div{ height: 100%; width: 100%; 
+  background: rgba(0,0,0,0.2);
+     position: relative; padding-top: 40px;}
+.scscProvince .item>div h2{ position: absolute; top:0; left: 0;
+   width: 100%;
+     color: rgba(255,194,0,1); font-size: 18px; 
+     line-height: 40px; padding-left: 20px;
+}
+.scscProvince .item>div>div{ height: 100%; width: 100%;}
+#provinceMap{ height: 100%; width: 100%;}
+.fuck1{ color: rgba(255,194,0,1); top:0; position: absolute; right:0; cursor: default;
+}
+.col-1{ width: 10%;}
+.col-2{ width: 20%;}
+.col-3{ width: 30%;}
+.col-4{ width: 40%;}
+.col-5{ width: 50%;}
+.col-6{ width: 60%;}
+.col-7{ width: 70%;}
+.col-8{ width: 80%;}
+.col-9{ width: 90%;}
+.col-10{ width: 100%;}
+.col-33{ width: 33.33%;}
+.canvas-container p{
+  color:#fff;
+}
